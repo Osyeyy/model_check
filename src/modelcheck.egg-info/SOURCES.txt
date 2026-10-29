@@ -1,0 +1,15 @@
+pyproject.toml
+src/modelcheck/__init__.py
+src/modelcheck/cli.py
+src/modelcheck/discovery.py
+src/modelcheck/estimator.py
+src/modelcheck/hardware.py
+src/modelcheck/inspector.py
+src/modelcheck.egg-info/PKG-INFO
+src/modelcheck.egg-info/SOURCES.txt
+src/modelcheck.egg-info/dependency_links.txt
+src/modelcheck.egg-info/entry_points.txt
+src/modelcheck.egg-info/requires.txt
+src/modelcheck.egg-info/top_level.txt
+tests/test_discovery.py
+tests/test_inspector.py

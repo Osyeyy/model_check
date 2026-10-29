@@ -1,0 +1,20 @@
+[project]
+name = "modelcheck"
+version = "0.1.0"
+description = "Model inspection"
+requires-python = ">=3.11"
+
+dependencies = [
+    "huggingface_hub>=0.26",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+modelcheck = "modelcheck.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
